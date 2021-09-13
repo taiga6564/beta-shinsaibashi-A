@@ -18,7 +18,7 @@ const app = Vue.createApp({
       */
       correctAnswer: {
         stage1: {
-          q1: '1',
+          q1: 'おんがく',
         },
         stage2: {
           q1: 'いいい',
