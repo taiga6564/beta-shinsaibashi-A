@@ -34,7 +34,7 @@
         <section class="section">
           <div class="container">
             <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：1</span>さぁゲームを始めよう！</h2>
-            <p class="text-center">友達から出された問題を解こう！<br>
+            <p class="text-center">友達から出された問題を解いてみよう！<br>
               下の画像の謎を解き、キーワード欄に入力しよう。</p>
             <p class="text-center">困ったときは、ヒントがある。なるべく見ないようにゲームを進めていこう。</p>
   
@@ -87,9 +87,9 @@ Youtube貼り付けここまで -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：１  クリア！</div>
-              <div class="clear-message__content">「音楽室///💓」<br>
-                音楽室に行けば返してもらえるのかな？<br>
-                行ってみよう！</div>
+              <div class="clear-message__content">「音楽室」<br>
+                音楽室に居るのだろうか？<br>
+                あと数枚ある紙を持って、音楽室へと向かった。</div>
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -109,11 +109,23 @@ Youtube貼り付けここまで -->
           <div class="section">
             <div class="container">
               <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：2</span>黒板に書かれている謎を解け！</h2>
-              <p class="text-center">音楽室についた！<br>
-                なんとガラスが割れている！<br>
-                その時校内アナウンスが流れた。「5年2組の◯◯さん。至急校長室へ来てください。」<br>
-                日直であった友達が疑われている？〇〇とはついさっきまで一緒にいたんだ。そのはずがない。<br>
-                音楽室に散らばった謎を解き、友達の無罪を証明しよう！</p>
+              <p class="text-center">音楽室へと続く階段を登る。<br>
+                放課後という事もあり、殆どの児童は帰宅していることだろう。<br>
+                静かな階段を登り切ると音楽室が見えてきた。<br>
+                さっき授業で通った道だが、何かが違っていた。<br>
+                <br>
+                中庭に面している窓が割れていたのだ。<br>
+                驚いて辺りをキョロキョロと見回していると、スピーカーから校内アナウンスが流れた。<br>
+                「5年2組の◯◯さん。至急、校長室へ来てください。繰り返します。5年2組の○○さん。至急、校長室へ来てください。」<br>
+                それは確かに友達の名前だった。今手元にある紙と目の前の惨状、そして校内アナウンス。きっと何か関係があるはずだ。<br>
+                <br>
+                音楽室に入ると、すぐに目につくのは割れた窓。<br>
+                割れた窓に近づくと、千切られたノートが置いてあり、そこには「オンラインカメラ」と書かれていた。<br>
+                次に目についたのは、授業で使った黒板。そこには発生練習の説明が書かれている。<br>
+                しかし、半分以上消し残しがある上に、何やら後から書き足された物もあるようだ。<br>
+                ふと3枚目の紙に目を落とすと、何やらその二つがヒントになっているのかも知れない。<br>
+                ここからは中庭の駐車場がよく見える。さっき聞こえた車の音は、友達のお母さんの車だったようだ。<br>
+                もしかして、友達が窓を割ったのか？分からないけど、急がないと大変なことになる。そんな感覚が頭の中で渦巻いていた。</p>
             </div>
           </div>
           <div class="stage-column__container section bg-color--keycolor">
@@ -187,7 +199,9 @@ Youtube貼り付けここまで -->
             <div class="clear-message">
               <div class="clear-message__title">STAGE：2　クリア！</div>
               <div class="clear-message__content"><br>
-                友達の冤罪を証明する証拠が集まった！「らいおん」と「ふらいぱん」のキーワードを持って次へ向かおう。</div>
+                「らいおん」と「ふらいぱん」<br>
+              この２つにいったいどんな関係があるのだろうか？<br>
+              最後の紙を見ながら頭を捻った。</div>
                 <button v-on:click="nextStage('stage2')" onclick="location.href='#sectionStage3'" class="clear-message__btn btn">校長室へ向かおう！<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -203,9 +217,10 @@ Youtube貼り付けここまで -->
         <section class="section">
           <div class="container">
             <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：3</span></h2>
-            <p class="text-center">あ<br>
-              どうやら、廃棄にかかる費用がかかりすぎて小学校の運営が厳しくなったようだ。。<br>
-              これらを解決するための最後の謎を解いていこう！</p>
+            <p class="text-center">どうやらこれが最後の問題のようだ。<br>
+              「らいおん」が一番上で、「ふらいぱん」が一番下に書かれている。<br>
+              これが何を示しているのかが分かれば、窓が割れた理由が分かるかも知れない。<br>
+              心地いい風が、割れた窓からすっと教室へと流れ込んできた。</p>
             <figure class="image__container">
               <img src="assets/images/step2.png" alt="">
             </figure>
